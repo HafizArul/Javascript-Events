@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Events</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="btn">
+            <h2>Click Event</h2>
+            <button>P Element</button>
+            <button>H3 Element</button>
+            <button onclick="createLink()">Link</button>
+        </div>
+        <div class="content"></div>
+    </div>
+    <div class="container">
+        <div class="btn">
+            <h2>Color Slider</h2>
+        </div>
+        <div class="content">
+            <div id="red">
+                <label for="red">Red</label>
+                <input type="range" min="0" max="255">
+            </div>
+            <div id="green">
+                <label for="green">Green</label>
+                <input type="range" min="0" max="255">
+            </div>
+            <div id="blue">
+                <label for="green">Blue</label>
+                <input type="range" min="0" max="255">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="btn">
+            <h2>Add Widget</h2>
+            <button>Add</button>
+        </div>
+        <div class="content"></div>
+    </div>
+    <div class="container">
+        <div class="btn">
+            <h2>Client Cursor</h2>
+        </div>
+        <div class="content">
+            <h3 id="cursorLocation"></p>
+        </div>
+    </div>
+    <script src="assets/js/js-events.js"></script>
+</body>
+</html>
